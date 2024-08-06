@@ -24,9 +24,7 @@ _start:
       mov rsi,buffer
       mov rdx,128
       syscall   
-   
-       
-  
+
       mov rax,60
       mov rdi,0
       syscall
